@@ -1,0 +1,2354 @@
+{
+  "dataset_name": "ICAO 9303 Compliant AI-Generated Passport & Visa Photo Reference Dataset",
+  "version": "1.0.0",
+  "total_samples": 130,
+  "description": "High-quality, synthetic and curated photo dataset strictly compliant with ICAO Doc 9303 & ISO/IEC 19794-5 passport and visa biometric standards. Used to train and calibrate the VisaReadyNow core biometric cropping & auto-correction engine.",
+  "standards_compliance": [
+    "ICAO Doc 9303",
+    "ISO/IEC 19794-5",
+    "U.S. Department of State 2x2",
+    "Schengen 35x45mm"
+  ],
+  "images": [
+    {
+      "filename": "OK_KI_FACE_001.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 557.87,
+        "eye_mid_y": 592.53,
+        "forehead_y": 400.44,
+        "chin_y": 1012.48,
+        "estimated_crown_y": 186.23,
+        "eye_angle_degrees": -1.552,
+        "face_height_px": 612.04,
+        "head_height_px": 826.25,
+        "head_height_ratio": 0.581,
+        "eye_y_ratio": 0.4167
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_002.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 559.23,
+        "eye_mid_y": 544.5,
+        "forehead_y": 344.7,
+        "chin_y": 948.51,
+        "estimated_crown_y": 133.37,
+        "eye_angle_degrees": -2.386,
+        "face_height_px": 603.81,
+        "head_height_px": 815.14,
+        "head_height_ratio": 0.5732,
+        "eye_y_ratio": 0.3829
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_003.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 553.01,
+        "eye_mid_y": 566.75,
+        "forehead_y": 363.57,
+        "chin_y": 977.2,
+        "estimated_crown_y": 148.79,
+        "eye_angle_degrees": -0.684,
+        "face_height_px": 613.64,
+        "head_height_px": 828.41,
+        "head_height_ratio": 0.5826,
+        "eye_y_ratio": 0.3986
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_004.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 552.47,
+        "eye_mid_y": 569.65,
+        "forehead_y": 391.38,
+        "chin_y": 982.49,
+        "estimated_crown_y": 184.5,
+        "eye_angle_degrees": -0.731,
+        "face_height_px": 591.11,
+        "head_height_px": 798.0,
+        "head_height_ratio": 0.5612,
+        "eye_y_ratio": 0.4006
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_005.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 548.31,
+        "eye_mid_y": 539.03,
+        "forehead_y": 353.39,
+        "chin_y": 919.96,
+        "estimated_crown_y": 155.09,
+        "eye_angle_degrees": -0.96,
+        "face_height_px": 566.58,
+        "head_height_px": 764.88,
+        "head_height_ratio": 0.5379,
+        "eye_y_ratio": 0.3791
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_006.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 561.96,
+        "eye_mid_y": 475.05,
+        "forehead_y": 279.92,
+        "chin_y": 903.49,
+        "estimated_crown_y": 61.67,
+        "eye_angle_degrees": -0.339,
+        "face_height_px": 623.57,
+        "head_height_px": 841.82,
+        "head_height_ratio": 0.592,
+        "eye_y_ratio": 0.3341
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_007.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 541.43,
+        "eye_mid_y": 535.07,
+        "forehead_y": 343.02,
+        "chin_y": 912.0,
+        "estimated_crown_y": 143.87,
+        "eye_angle_degrees": -0.537,
+        "face_height_px": 568.99,
+        "head_height_px": 768.13,
+        "head_height_ratio": 0.5402,
+        "eye_y_ratio": 0.3763
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_008.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 550.43,
+        "eye_mid_y": 573.15,
+        "forehead_y": 387.93,
+        "chin_y": 992.1,
+        "estimated_crown_y": 176.47,
+        "eye_angle_degrees": -0.784,
+        "face_height_px": 604.17,
+        "head_height_px": 815.63,
+        "head_height_ratio": 0.5736,
+        "eye_y_ratio": 0.4031
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_009.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 557.4,
+        "eye_mid_y": 483.25,
+        "forehead_y": 310.76,
+        "chin_y": 850.27,
+        "estimated_crown_y": 121.93,
+        "eye_angle_degrees": -0.24,
+        "face_height_px": 539.52,
+        "head_height_px": 728.35,
+        "head_height_ratio": 0.5122,
+        "eye_y_ratio": 0.3398
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_010.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 554.35,
+        "eye_mid_y": 563.38,
+        "forehead_y": 401.54,
+        "chin_y": 961.31,
+        "estimated_crown_y": 205.62,
+        "eye_angle_degrees": -0.819,
+        "face_height_px": 559.76,
+        "head_height_px": 755.68,
+        "head_height_ratio": 0.5314,
+        "eye_y_ratio": 0.3962
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_011.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 550.71,
+        "eye_mid_y": 590.5,
+        "forehead_y": 419.36,
+        "chin_y": 961.55,
+        "estimated_crown_y": 229.59,
+        "eye_angle_degrees": -1.548,
+        "face_height_px": 542.19,
+        "head_height_px": 731.95,
+        "head_height_ratio": 0.5147,
+        "eye_y_ratio": 0.4153
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_012.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 555.34,
+        "eye_mid_y": 581.54,
+        "forehead_y": 426.25,
+        "chin_y": 976.37,
+        "estimated_crown_y": 233.71,
+        "eye_angle_degrees": -0.065,
+        "face_height_px": 550.12,
+        "head_height_px": 742.66,
+        "head_height_ratio": 0.5223,
+        "eye_y_ratio": 0.409
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_013.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 545.87,
+        "eye_mid_y": 573.08,
+        "forehead_y": 383.9,
+        "chin_y": 965.2,
+        "estimated_crown_y": 180.44,
+        "eye_angle_degrees": -1.138,
+        "face_height_px": 581.3,
+        "head_height_px": 784.76,
+        "head_height_ratio": 0.5519,
+        "eye_y_ratio": 0.403
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_014.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 553.1,
+        "eye_mid_y": 606.89,
+        "forehead_y": 430.92,
+        "chin_y": 999.23,
+        "estimated_crown_y": 232.01,
+        "eye_angle_degrees": -0.76,
+        "face_height_px": 568.31,
+        "head_height_px": 767.22,
+        "head_height_ratio": 0.5395,
+        "eye_y_ratio": 0.4268
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_015.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 551.63,
+        "eye_mid_y": 565.18,
+        "forehead_y": 407.92,
+        "chin_y": 898.27,
+        "estimated_crown_y": 236.3,
+        "eye_angle_degrees": -0.634,
+        "face_height_px": 490.35,
+        "head_height_px": 661.98,
+        "head_height_ratio": 0.4655,
+        "eye_y_ratio": 0.3975
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_016.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 553.18,
+        "eye_mid_y": 554.29,
+        "forehead_y": 370.92,
+        "chin_y": 966.0,
+        "estimated_crown_y": 162.64,
+        "eye_angle_degrees": -0.054,
+        "face_height_px": 595.08,
+        "head_height_px": 803.36,
+        "head_height_ratio": 0.565,
+        "eye_y_ratio": 0.3898
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_017.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 552.54,
+        "eye_mid_y": 593.9,
+        "forehead_y": 413.67,
+        "chin_y": 961.5,
+        "estimated_crown_y": 221.93,
+        "eye_angle_degrees": -0.977,
+        "face_height_px": 547.83,
+        "head_height_px": 739.58,
+        "head_height_ratio": 0.5201,
+        "eye_y_ratio": 0.4176
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_018.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 545.15,
+        "eye_mid_y": 592.03,
+        "forehead_y": 428.68,
+        "chin_y": 986.87,
+        "estimated_crown_y": 233.32,
+        "eye_angle_degrees": -0.306,
+        "face_height_px": 558.19,
+        "head_height_px": 753.56,
+        "head_height_ratio": 0.5299,
+        "eye_y_ratio": 0.4163
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_019.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 552.33,
+        "eye_mid_y": 533.46,
+        "forehead_y": 356.28,
+        "chin_y": 918.19,
+        "estimated_crown_y": 159.61,
+        "eye_angle_degrees": -0.52,
+        "face_height_px": 561.91,
+        "head_height_px": 758.57,
+        "head_height_ratio": 0.5335,
+        "eye_y_ratio": 0.3751
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_020.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 550.32,
+        "eye_mid_y": 565.85,
+        "forehead_y": 395.35,
+        "chin_y": 961.34,
+        "estimated_crown_y": 197.25,
+        "eye_angle_degrees": 0.209,
+        "face_height_px": 566.0,
+        "head_height_px": 764.09,
+        "head_height_ratio": 0.5373,
+        "eye_y_ratio": 0.3979
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_021.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 552.87,
+        "eye_mid_y": 583.18,
+        "forehead_y": 423.36,
+        "chin_y": 967.73,
+        "estimated_crown_y": 232.84,
+        "eye_angle_degrees": -0.835,
+        "face_height_px": 544.37,
+        "head_height_px": 734.9,
+        "head_height_ratio": 0.5168,
+        "eye_y_ratio": 0.4101
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_022.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 550.35,
+        "eye_mid_y": 534.95,
+        "forehead_y": 364.6,
+        "chin_y": 890.23,
+        "estimated_crown_y": 180.63,
+        "eye_angle_degrees": -0.869,
+        "face_height_px": 525.63,
+        "head_height_px": 709.6,
+        "head_height_ratio": 0.499,
+        "eye_y_ratio": 0.3762
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_023.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 547.5,
+        "eye_mid_y": 496.15,
+        "forehead_y": 310.09,
+        "chin_y": 913.61,
+        "estimated_crown_y": 98.86,
+        "eye_angle_degrees": -0.786,
+        "face_height_px": 603.52,
+        "head_height_px": 814.75,
+        "head_height_ratio": 0.573,
+        "eye_y_ratio": 0.3489
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_024.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 555.69,
+        "eye_mid_y": 603.6,
+        "forehead_y": 410.35,
+        "chin_y": 973.86,
+        "estimated_crown_y": 213.12,
+        "eye_angle_degrees": -0.988,
+        "face_height_px": 563.51,
+        "head_height_px": 760.74,
+        "head_height_ratio": 0.535,
+        "eye_y_ratio": 0.4245
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_025.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 558.45,
+        "eye_mid_y": 569.61,
+        "forehead_y": 410.64,
+        "chin_y": 959.04,
+        "estimated_crown_y": 218.7,
+        "eye_angle_degrees": -0.597,
+        "face_height_px": 548.4,
+        "head_height_px": 740.33,
+        "head_height_ratio": 0.5206,
+        "eye_y_ratio": 0.4006
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_026.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 541.31,
+        "eye_mid_y": 519.12,
+        "forehead_y": 342.66,
+        "chin_y": 887.6,
+        "estimated_crown_y": 151.93,
+        "eye_angle_degrees": -0.648,
+        "face_height_px": 544.94,
+        "head_height_px": 735.67,
+        "head_height_ratio": 0.5173,
+        "eye_y_ratio": 0.3651
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_027.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 553.69,
+        "eye_mid_y": 574.09,
+        "forehead_y": 388.85,
+        "chin_y": 985.81,
+        "estimated_crown_y": 179.91,
+        "eye_angle_degrees": -1.05,
+        "face_height_px": 596.96,
+        "head_height_px": 805.9,
+        "head_height_ratio": 0.5667,
+        "eye_y_ratio": 0.4037
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_028.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 553.94,
+        "eye_mid_y": 530.49,
+        "forehead_y": 354.39,
+        "chin_y": 894.45,
+        "estimated_crown_y": 165.37,
+        "eye_angle_degrees": -0.447,
+        "face_height_px": 540.06,
+        "head_height_px": 729.08,
+        "head_height_ratio": 0.5127,
+        "eye_y_ratio": 0.3731
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_029.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 555.26,
+        "eye_mid_y": 587.92,
+        "forehead_y": 420.08,
+        "chin_y": 957.3,
+        "estimated_crown_y": 232.05,
+        "eye_angle_degrees": -0.412,
+        "face_height_px": 537.22,
+        "head_height_px": 725.25,
+        "head_height_ratio": 0.51,
+        "eye_y_ratio": 0.4134
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_030.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 554.97,
+        "eye_mid_y": 567.74,
+        "forehead_y": 386.12,
+        "chin_y": 982.61,
+        "estimated_crown_y": 177.35,
+        "eye_angle_degrees": -0.892,
+        "face_height_px": 596.49,
+        "head_height_px": 805.26,
+        "head_height_ratio": 0.5663,
+        "eye_y_ratio": 0.3993
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_031.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 562.0,
+        "eye_mid_y": 544.57,
+        "forehead_y": 379.99,
+        "chin_y": 912.2,
+        "estimated_crown_y": 193.72,
+        "eye_angle_degrees": -2.788,
+        "face_height_px": 532.2,
+        "head_height_px": 718.47,
+        "head_height_ratio": 0.5053,
+        "eye_y_ratio": 0.383
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_032.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 559.33,
+        "eye_mid_y": 564.57,
+        "forehead_y": 395.79,
+        "chin_y": 966.3,
+        "estimated_crown_y": 196.11,
+        "eye_angle_degrees": -0.288,
+        "face_height_px": 570.51,
+        "head_height_px": 770.19,
+        "head_height_ratio": 0.5416,
+        "eye_y_ratio": 0.397
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_033.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 580.9,
+        "eye_mid_y": 645.7,
+        "forehead_y": 471.54,
+        "chin_y": 1001.57,
+        "estimated_crown_y": 286.03,
+        "eye_angle_degrees": 0.325,
+        "face_height_px": 530.02,
+        "head_height_px": 715.53,
+        "head_height_ratio": 0.5032,
+        "eye_y_ratio": 0.4541
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_034.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 558.38,
+        "eye_mid_y": 582.4,
+        "forehead_y": 400.63,
+        "chin_y": 986.87,
+        "estimated_crown_y": 195.44,
+        "eye_angle_degrees": -0.234,
+        "face_height_px": 586.25,
+        "head_height_px": 791.43,
+        "head_height_ratio": 0.5566,
+        "eye_y_ratio": 0.4096
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_035.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 553.26,
+        "eye_mid_y": 555.94,
+        "forehead_y": 358.62,
+        "chin_y": 972.41,
+        "estimated_crown_y": 143.79,
+        "eye_angle_degrees": -0.195,
+        "face_height_px": 613.8,
+        "head_height_px": 828.63,
+        "head_height_ratio": 0.5827,
+        "eye_y_ratio": 0.391
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_036.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 547.69,
+        "eye_mid_y": 560.83,
+        "forehead_y": 402.75,
+        "chin_y": 937.85,
+        "estimated_crown_y": 215.47,
+        "eye_angle_degrees": -0.498,
+        "face_height_px": 535.1,
+        "head_height_px": 722.38,
+        "head_height_ratio": 0.508,
+        "eye_y_ratio": 0.3944
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_037.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 546.47,
+        "eye_mid_y": 586.42,
+        "forehead_y": 402.56,
+        "chin_y": 1001.51,
+        "estimated_crown_y": 192.93,
+        "eye_angle_degrees": 0.294,
+        "face_height_px": 598.95,
+        "head_height_px": 808.58,
+        "head_height_ratio": 0.5686,
+        "eye_y_ratio": 0.4124
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_038.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 554.57,
+        "eye_mid_y": 558.22,
+        "forehead_y": 372.81,
+        "chin_y": 946.62,
+        "estimated_crown_y": 171.97,
+        "eye_angle_degrees": -1.183,
+        "face_height_px": 573.81,
+        "head_height_px": 774.65,
+        "head_height_ratio": 0.5448,
+        "eye_y_ratio": 0.3926
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_039.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 554.2,
+        "eye_mid_y": 574.96,
+        "forehead_y": 390.68,
+        "chin_y": 991.3,
+        "estimated_crown_y": 180.47,
+        "eye_angle_degrees": 0.233,
+        "face_height_px": 600.62,
+        "head_height_px": 810.83,
+        "head_height_ratio": 0.5702,
+        "eye_y_ratio": 0.4043
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_040.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 551.41,
+        "eye_mid_y": 528.65,
+        "forehead_y": 344.32,
+        "chin_y": 945.87,
+        "estimated_crown_y": 133.78,
+        "eye_angle_degrees": -0.258,
+        "face_height_px": 601.54,
+        "head_height_px": 812.08,
+        "head_height_ratio": 0.5711,
+        "eye_y_ratio": 0.3718
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_041.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 554.44,
+        "eye_mid_y": 562.99,
+        "forehead_y": 387.62,
+        "chin_y": 939.72,
+        "estimated_crown_y": 194.38,
+        "eye_angle_degrees": -0.628,
+        "face_height_px": 552.1,
+        "head_height_px": 745.34,
+        "head_height_ratio": 0.5241,
+        "eye_y_ratio": 0.3959
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_042.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 552.37,
+        "eye_mid_y": 578.02,
+        "forehead_y": 387.59,
+        "chin_y": 1009.14,
+        "estimated_crown_y": 170.04,
+        "eye_angle_degrees": -1.537,
+        "face_height_px": 621.55,
+        "head_height_px": 839.1,
+        "head_height_ratio": 0.5901,
+        "eye_y_ratio": 0.4065
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_043.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 564.06,
+        "eye_mid_y": 538.81,
+        "forehead_y": 363.8,
+        "chin_y": 914.04,
+        "estimated_crown_y": 171.21,
+        "eye_angle_degrees": -1.143,
+        "face_height_px": 550.24,
+        "head_height_px": 742.83,
+        "head_height_ratio": 0.5224,
+        "eye_y_ratio": 0.3789
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_044.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 556.37,
+        "eye_mid_y": 605.24,
+        "forehead_y": 412.27,
+        "chin_y": 1020.4,
+        "estimated_crown_y": 199.43,
+        "eye_angle_degrees": -0.11,
+        "face_height_px": 608.13,
+        "head_height_px": 820.97,
+        "head_height_ratio": 0.5773,
+        "eye_y_ratio": 0.4256
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_045.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 557.48,
+        "eye_mid_y": 618.56,
+        "forehead_y": 414.94,
+        "chin_y": 1024.57,
+        "estimated_crown_y": 201.57,
+        "eye_angle_degrees": -0.561,
+        "face_height_px": 609.63,
+        "head_height_px": 823.0,
+        "head_height_ratio": 0.5788,
+        "eye_y_ratio": 0.435
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_046.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 561.71,
+        "eye_mid_y": 571.07,
+        "forehead_y": 389.92,
+        "chin_y": 1011.38,
+        "estimated_crown_y": 172.41,
+        "eye_angle_degrees": -0.42,
+        "face_height_px": 621.46,
+        "head_height_px": 838.97,
+        "head_height_ratio": 0.59,
+        "eye_y_ratio": 0.4016
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_047.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 541.22,
+        "eye_mid_y": 540.45,
+        "forehead_y": 339.94,
+        "chin_y": 957.17,
+        "estimated_crown_y": 123.9,
+        "eye_angle_degrees": -0.758,
+        "face_height_px": 617.24,
+        "head_height_px": 833.27,
+        "head_height_ratio": 0.586,
+        "eye_y_ratio": 0.3801
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_048.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 553.49,
+        "eye_mid_y": 554.55,
+        "forehead_y": 362.18,
+        "chin_y": 962.5,
+        "estimated_crown_y": 152.07,
+        "eye_angle_degrees": 0.241,
+        "face_height_px": 600.32,
+        "head_height_px": 810.43,
+        "head_height_ratio": 0.5699,
+        "eye_y_ratio": 0.39
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_049.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 555.66,
+        "eye_mid_y": 569.3,
+        "forehead_y": 405.36,
+        "chin_y": 975.61,
+        "estimated_crown_y": 205.78,
+        "eye_angle_degrees": 0.071,
+        "face_height_px": 570.24,
+        "head_height_px": 769.83,
+        "head_height_ratio": 0.5414,
+        "eye_y_ratio": 0.4004
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_050.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 550.23,
+        "eye_mid_y": 560.27,
+        "forehead_y": 365.2,
+        "chin_y": 949.61,
+        "estimated_crown_y": 160.65,
+        "eye_angle_degrees": -1.701,
+        "face_height_px": 584.42,
+        "head_height_px": 788.96,
+        "head_height_ratio": 0.5548,
+        "eye_y_ratio": 0.394
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_051.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 558.69,
+        "eye_mid_y": 542.56,
+        "forehead_y": 335.64,
+        "chin_y": 1001.27,
+        "estimated_crown_y": 102.67,
+        "eye_angle_degrees": -0.776,
+        "face_height_px": 665.63,
+        "head_height_px": 898.6,
+        "head_height_ratio": 0.6319,
+        "eye_y_ratio": 0.3815
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_052.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 552.24,
+        "eye_mid_y": 546.2,
+        "forehead_y": 353.12,
+        "chin_y": 941.76,
+        "estimated_crown_y": 147.09,
+        "eye_angle_degrees": -0.263,
+        "face_height_px": 588.64,
+        "head_height_px": 794.67,
+        "head_height_ratio": 0.5588,
+        "eye_y_ratio": 0.3841
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_053.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 551.74,
+        "eye_mid_y": 539.71,
+        "forehead_y": 375.1,
+        "chin_y": 890.79,
+        "estimated_crown_y": 194.6,
+        "eye_angle_degrees": -1.007,
+        "face_height_px": 515.69,
+        "head_height_px": 696.18,
+        "head_height_ratio": 0.4896,
+        "eye_y_ratio": 0.3795
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_054.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 558.92,
+        "eye_mid_y": 624.19,
+        "forehead_y": 429.05,
+        "chin_y": 1008.91,
+        "estimated_crown_y": 226.1,
+        "eye_angle_degrees": 0.116,
+        "face_height_px": 579.86,
+        "head_height_px": 782.81,
+        "head_height_ratio": 0.5505,
+        "eye_y_ratio": 0.439
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_055.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 556.63,
+        "eye_mid_y": 584.85,
+        "forehead_y": 420.03,
+        "chin_y": 978.89,
+        "estimated_crown_y": 224.43,
+        "eye_angle_degrees": -0.122,
+        "face_height_px": 558.86,
+        "head_height_px": 754.46,
+        "head_height_ratio": 0.5306,
+        "eye_y_ratio": 0.4113
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_056.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 550.53,
+        "eye_mid_y": 543.3,
+        "forehead_y": 358.32,
+        "chin_y": 931.52,
+        "estimated_crown_y": 157.7,
+        "eye_angle_degrees": -1.805,
+        "face_height_px": 573.2,
+        "head_height_px": 773.82,
+        "head_height_ratio": 0.5442,
+        "eye_y_ratio": 0.3821
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_057.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 561.87,
+        "eye_mid_y": 607.77,
+        "forehead_y": 438.52,
+        "chin_y": 1003.38,
+        "estimated_crown_y": 240.82,
+        "eye_angle_degrees": -0.537,
+        "face_height_px": 564.86,
+        "head_height_px": 762.57,
+        "head_height_ratio": 0.5363,
+        "eye_y_ratio": 0.4274
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_058.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 556.27,
+        "eye_mid_y": 521.34,
+        "forehead_y": 338.71,
+        "chin_y": 930.33,
+        "estimated_crown_y": 131.65,
+        "eye_angle_degrees": -0.33,
+        "face_height_px": 591.61,
+        "head_height_px": 798.68,
+        "head_height_ratio": 0.5617,
+        "eye_y_ratio": 0.3666
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_059.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 559.66,
+        "eye_mid_y": 493.89,
+        "forehead_y": 321.16,
+        "chin_y": 879.93,
+        "estimated_crown_y": 125.59,
+        "eye_angle_degrees": -0.387,
+        "face_height_px": 558.77,
+        "head_height_px": 754.34,
+        "head_height_ratio": 0.5305,
+        "eye_y_ratio": 0.3473
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_060.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 552.61,
+        "eye_mid_y": 537.69,
+        "forehead_y": 357.02,
+        "chin_y": 914.64,
+        "estimated_crown_y": 161.86,
+        "eye_angle_degrees": -0.62,
+        "face_height_px": 557.62,
+        "head_height_px": 752.78,
+        "head_height_ratio": 0.5294,
+        "eye_y_ratio": 0.3781
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_061.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 557.53,
+        "eye_mid_y": 610.64,
+        "forehead_y": 433.16,
+        "chin_y": 1006.39,
+        "estimated_crown_y": 232.53,
+        "eye_angle_degrees": 0.361,
+        "face_height_px": 573.23,
+        "head_height_px": 773.86,
+        "head_height_ratio": 0.5442,
+        "eye_y_ratio": 0.4294
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_062.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 563.41,
+        "eye_mid_y": 550.07,
+        "forehead_y": 386.7,
+        "chin_y": 885.87,
+        "estimated_crown_y": 212.0,
+        "eye_angle_degrees": 0.297,
+        "face_height_px": 499.16,
+        "head_height_px": 673.87,
+        "head_height_ratio": 0.4739,
+        "eye_y_ratio": 0.3868
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_063.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 549.06,
+        "eye_mid_y": 527.37,
+        "forehead_y": 358.8,
+        "chin_y": 912.39,
+        "estimated_crown_y": 165.04,
+        "eye_angle_degrees": 0.237,
+        "face_height_px": 553.6,
+        "head_height_px": 747.36,
+        "head_height_ratio": 0.5256,
+        "eye_y_ratio": 0.3709
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_064.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 554.31,
+        "eye_mid_y": 687.22,
+        "forehead_y": 507.61,
+        "chin_y": 1042.2,
+        "estimated_crown_y": 320.51,
+        "eye_angle_degrees": -0.851,
+        "face_height_px": 534.59,
+        "head_height_px": 721.7,
+        "head_height_ratio": 0.5075,
+        "eye_y_ratio": 0.4833
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_065.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 562.71,
+        "eye_mid_y": 522.81,
+        "forehead_y": 364.02,
+        "chin_y": 891.27,
+        "estimated_crown_y": 179.48,
+        "eye_angle_degrees": 0.321,
+        "face_height_px": 527.25,
+        "head_height_px": 711.79,
+        "head_height_ratio": 0.5006,
+        "eye_y_ratio": 0.3677
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_066.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 559.8,
+        "eye_mid_y": 560.9,
+        "forehead_y": 402.53,
+        "chin_y": 885.18,
+        "estimated_crown_y": 233.6,
+        "eye_angle_degrees": -2.105,
+        "face_height_px": 482.66,
+        "head_height_px": 651.59,
+        "head_height_ratio": 0.4582,
+        "eye_y_ratio": 0.3944
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_067.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 561.2,
+        "eye_mid_y": 581.86,
+        "forehead_y": 407.32,
+        "chin_y": 961.79,
+        "estimated_crown_y": 213.26,
+        "eye_angle_degrees": -1.175,
+        "face_height_px": 554.47,
+        "head_height_px": 748.53,
+        "head_height_ratio": 0.5264,
+        "eye_y_ratio": 0.4092
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_068.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 563.99,
+        "eye_mid_y": 592.37,
+        "forehead_y": 412.96,
+        "chin_y": 970.61,
+        "estimated_crown_y": 217.77,
+        "eye_angle_degrees": -0.723,
+        "face_height_px": 557.66,
+        "head_height_px": 752.84,
+        "head_height_ratio": 0.5294,
+        "eye_y_ratio": 0.4166
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_069.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 556.88,
+        "eye_mid_y": 536.17,
+        "forehead_y": 367.94,
+        "chin_y": 922.32,
+        "estimated_crown_y": 173.9,
+        "eye_angle_degrees": -0.696,
+        "face_height_px": 554.39,
+        "head_height_px": 748.42,
+        "head_height_ratio": 0.5263,
+        "eye_y_ratio": 0.3771
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_070.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 556.69,
+        "eye_mid_y": 542.43,
+        "forehead_y": 383.84,
+        "chin_y": 878.56,
+        "estimated_crown_y": 210.69,
+        "eye_angle_degrees": -0.443,
+        "face_height_px": 494.72,
+        "head_height_px": 667.88,
+        "head_height_ratio": 0.4697,
+        "eye_y_ratio": 0.3815
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_071.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 549.33,
+        "eye_mid_y": 533.66,
+        "forehead_y": 371.33,
+        "chin_y": 898.8,
+        "estimated_crown_y": 186.72,
+        "eye_angle_degrees": -0.666,
+        "face_height_px": 527.47,
+        "head_height_px": 712.08,
+        "head_height_ratio": 0.5008,
+        "eye_y_ratio": 0.3753
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_072.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 556.54,
+        "eye_mid_y": 511.74,
+        "forehead_y": 359.31,
+        "chin_y": 838.12,
+        "estimated_crown_y": 191.73,
+        "eye_angle_degrees": -0.1,
+        "face_height_px": 478.81,
+        "head_height_px": 646.39,
+        "head_height_ratio": 0.4546,
+        "eye_y_ratio": 0.3599
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_073.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 555.41,
+        "eye_mid_y": 618.9,
+        "forehead_y": 473.55,
+        "chin_y": 974.82,
+        "estimated_crown_y": 298.1,
+        "eye_angle_degrees": -0.69,
+        "face_height_px": 501.27,
+        "head_height_px": 676.71,
+        "head_height_ratio": 0.4759,
+        "eye_y_ratio": 0.4352
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_074.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 551.94,
+        "eye_mid_y": 506.21,
+        "forehead_y": 354.77,
+        "chin_y": 820.72,
+        "estimated_crown_y": 191.69,
+        "eye_angle_degrees": -0.731,
+        "face_height_px": 465.95,
+        "head_height_px": 629.03,
+        "head_height_ratio": 0.4424,
+        "eye_y_ratio": 0.356
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_075.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 553.98,
+        "eye_mid_y": 546.55,
+        "forehead_y": 374.1,
+        "chin_y": 911.32,
+        "estimated_crown_y": 186.08,
+        "eye_angle_degrees": 0.001,
+        "face_height_px": 537.21,
+        "head_height_px": 725.23,
+        "head_height_ratio": 0.51,
+        "eye_y_ratio": 0.3844
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_076.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 555.97,
+        "eye_mid_y": 487.71,
+        "forehead_y": 328.86,
+        "chin_y": 824.96,
+        "estimated_crown_y": 155.22,
+        "eye_angle_degrees": -0.649,
+        "face_height_px": 496.1,
+        "head_height_px": 669.73,
+        "head_height_ratio": 0.471,
+        "eye_y_ratio": 0.343
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_077.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 550.55,
+        "eye_mid_y": 540.67,
+        "forehead_y": 395.11,
+        "chin_y": 877.26,
+        "estimated_crown_y": 226.36,
+        "eye_angle_degrees": -0.865,
+        "face_height_px": 482.15,
+        "head_height_px": 650.9,
+        "head_height_ratio": 0.4577,
+        "eye_y_ratio": 0.3802
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_078.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 556.71,
+        "eye_mid_y": 566.55,
+        "forehead_y": 393.66,
+        "chin_y": 924.35,
+        "estimated_crown_y": 207.92,
+        "eye_angle_degrees": -1.554,
+        "face_height_px": 530.68,
+        "head_height_px": 716.42,
+        "head_height_ratio": 0.5038,
+        "eye_y_ratio": 0.3984
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_079.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 541.24,
+        "eye_mid_y": 516.47,
+        "forehead_y": 389.29,
+        "chin_y": 800.04,
+        "estimated_crown_y": 245.53,
+        "eye_angle_degrees": -1.139,
+        "face_height_px": 410.74,
+        "head_height_px": 554.5,
+        "head_height_ratio": 0.3899,
+        "eye_y_ratio": 0.3632
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_080.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 562.69,
+        "eye_mid_y": 506.87,
+        "forehead_y": 333.07,
+        "chin_y": 866.86,
+        "estimated_crown_y": 146.24,
+        "eye_angle_degrees": -0.812,
+        "face_height_px": 533.79,
+        "head_height_px": 720.62,
+        "head_height_ratio": 0.5068,
+        "eye_y_ratio": 0.3564
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_081.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 556.76,
+        "eye_mid_y": 551.52,
+        "forehead_y": 395.21,
+        "chin_y": 910.09,
+        "estimated_crown_y": 215.01,
+        "eye_angle_degrees": -0.09,
+        "face_height_px": 514.88,
+        "head_height_px": 695.08,
+        "head_height_ratio": 0.4888,
+        "eye_y_ratio": 0.3879
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_082.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 549.28,
+        "eye_mid_y": 501.48,
+        "forehead_y": 357.28,
+        "chin_y": 807.27,
+        "estimated_crown_y": 199.78,
+        "eye_angle_degrees": 0.317,
+        "face_height_px": 449.99,
+        "head_height_px": 607.48,
+        "head_height_ratio": 0.4272,
+        "eye_y_ratio": 0.3527
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_083.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 545.66,
+        "eye_mid_y": 521.18,
+        "forehead_y": 385.24,
+        "chin_y": 854.46,
+        "estimated_crown_y": 221.01,
+        "eye_angle_degrees": 0.301,
+        "face_height_px": 469.22,
+        "head_height_px": 633.45,
+        "head_height_ratio": 0.4455,
+        "eye_y_ratio": 0.3665
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_084.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 546.94,
+        "eye_mid_y": 528.0,
+        "forehead_y": 376.94,
+        "chin_y": 839.85,
+        "estimated_crown_y": 214.92,
+        "eye_angle_degrees": -0.587,
+        "face_height_px": 462.91,
+        "head_height_px": 624.93,
+        "head_height_ratio": 0.4395,
+        "eye_y_ratio": 0.3713
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_085.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 548.78,
+        "eye_mid_y": 537.3,
+        "forehead_y": 385.43,
+        "chin_y": 862.28,
+        "estimated_crown_y": 218.53,
+        "eye_angle_degrees": -1.68,
+        "face_height_px": 476.85,
+        "head_height_px": 643.75,
+        "head_height_ratio": 0.4527,
+        "eye_y_ratio": 0.3778
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_086.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 543.35,
+        "eye_mid_y": 609.39,
+        "forehead_y": 447.21,
+        "chin_y": 954.85,
+        "estimated_crown_y": 269.54,
+        "eye_angle_degrees": -0.25,
+        "face_height_px": 507.64,
+        "head_height_px": 685.31,
+        "head_height_ratio": 0.4819,
+        "eye_y_ratio": 0.4285
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_087.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 554.49,
+        "eye_mid_y": 525.89,
+        "forehead_y": 381.28,
+        "chin_y": 874.21,
+        "estimated_crown_y": 208.75,
+        "eye_angle_degrees": -1.163,
+        "face_height_px": 492.93,
+        "head_height_px": 665.46,
+        "head_height_ratio": 0.468,
+        "eye_y_ratio": 0.3698
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_088.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 552.01,
+        "eye_mid_y": 551.9,
+        "forehead_y": 378.65,
+        "chin_y": 904.5,
+        "estimated_crown_y": 194.61,
+        "eye_angle_degrees": -0.112,
+        "face_height_px": 525.85,
+        "head_height_px": 709.89,
+        "head_height_ratio": 0.4992,
+        "eye_y_ratio": 0.3881
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_089.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 547.05,
+        "eye_mid_y": 594.16,
+        "forehead_y": 446.22,
+        "chin_y": 924.68,
+        "estimated_crown_y": 278.76,
+        "eye_angle_degrees": -1.688,
+        "face_height_px": 478.46,
+        "head_height_px": 645.92,
+        "head_height_ratio": 0.4542,
+        "eye_y_ratio": 0.4178
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_090.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 547.91,
+        "eye_mid_y": 561.15,
+        "forehead_y": 430.84,
+        "chin_y": 836.19,
+        "estimated_crown_y": 288.97,
+        "eye_angle_degrees": -0.558,
+        "face_height_px": 405.35,
+        "head_height_px": 547.22,
+        "head_height_ratio": 0.3848,
+        "eye_y_ratio": 0.3946
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_091.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 547.48,
+        "eye_mid_y": 637.23,
+        "forehead_y": 484.84,
+        "chin_y": 992.63,
+        "estimated_crown_y": 307.12,
+        "eye_angle_degrees": -2.067,
+        "face_height_px": 507.78,
+        "head_height_px": 685.51,
+        "head_height_ratio": 0.4821,
+        "eye_y_ratio": 0.4481
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_092.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 534.67,
+        "eye_mid_y": 548.63,
+        "forehead_y": 391.89,
+        "chin_y": 884.62,
+        "estimated_crown_y": 219.44,
+        "eye_angle_degrees": -0.031,
+        "face_height_px": 492.73,
+        "head_height_px": 665.19,
+        "head_height_ratio": 0.4678,
+        "eye_y_ratio": 0.3858
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_093.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 565.82,
+        "eye_mid_y": 589.36,
+        "forehead_y": 433.34,
+        "chin_y": 962.24,
+        "estimated_crown_y": 248.23,
+        "eye_angle_degrees": -0.643,
+        "face_height_px": 528.89,
+        "head_height_px": 714.01,
+        "head_height_ratio": 0.5021,
+        "eye_y_ratio": 0.4145
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_094.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 555.83,
+        "eye_mid_y": 616.9,
+        "forehead_y": 463.14,
+        "chin_y": 938.79,
+        "estimated_crown_y": 296.67,
+        "eye_angle_degrees": -0.123,
+        "face_height_px": 475.65,
+        "head_height_px": 642.13,
+        "head_height_ratio": 0.4516,
+        "eye_y_ratio": 0.4338
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_095.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 555.99,
+        "eye_mid_y": 600.19,
+        "forehead_y": 433.68,
+        "chin_y": 960.1,
+        "estimated_crown_y": 249.43,
+        "eye_angle_degrees": -0.183,
+        "face_height_px": 526.42,
+        "head_height_px": 710.67,
+        "head_height_ratio": 0.4998,
+        "eye_y_ratio": 0.4221
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_096.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 547.57,
+        "eye_mid_y": 551.94,
+        "forehead_y": 394.56,
+        "chin_y": 879.62,
+        "estimated_crown_y": 224.78,
+        "eye_angle_degrees": -1.299,
+        "face_height_px": 485.07,
+        "head_height_px": 654.84,
+        "head_height_ratio": 0.4605,
+        "eye_y_ratio": 0.3881
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_097.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 555.3,
+        "eye_mid_y": 594.6,
+        "forehead_y": 426.02,
+        "chin_y": 987.03,
+        "estimated_crown_y": 229.67,
+        "eye_angle_degrees": -0.503,
+        "face_height_px": 561.01,
+        "head_height_px": 757.36,
+        "head_height_ratio": 0.5326,
+        "eye_y_ratio": 0.4181
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_098.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 558.1,
+        "eye_mid_y": 628.75,
+        "forehead_y": 457.12,
+        "chin_y": 980.65,
+        "estimated_crown_y": 273.88,
+        "eye_angle_degrees": -1.569,
+        "face_height_px": 523.53,
+        "head_height_px": 706.77,
+        "head_height_ratio": 0.497,
+        "eye_y_ratio": 0.4422
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_099.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 545.13,
+        "eye_mid_y": 563.76,
+        "forehead_y": 394.34,
+        "chin_y": 937.16,
+        "estimated_crown_y": 204.36,
+        "eye_angle_degrees": -0.795,
+        "face_height_px": 542.82,
+        "head_height_px": 732.81,
+        "head_height_ratio": 0.5153,
+        "eye_y_ratio": 0.3965
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_100.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 548.77,
+        "eye_mid_y": 549.63,
+        "forehead_y": 404.65,
+        "chin_y": 853.46,
+        "estimated_crown_y": 247.56,
+        "eye_angle_degrees": -1.785,
+        "face_height_px": 448.81,
+        "head_height_px": 605.9,
+        "head_height_ratio": 0.4261,
+        "eye_y_ratio": 0.3865
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_101.png",
+      "width": 700,
+      "height": 900,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 346.51,
+        "eye_mid_y": 454.21,
+        "forehead_y": 311.41,
+        "chin_y": 800.7,
+        "estimated_crown_y": 140.16,
+        "eye_angle_degrees": -0.173,
+        "face_height_px": 489.29,
+        "head_height_px": 660.54,
+        "head_height_ratio": 0.7339,
+        "eye_y_ratio": 0.5047
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_102.png",
+      "width": 700,
+      "height": 900,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 345.14,
+        "eye_mid_y": 453.01,
+        "forehead_y": 300.09,
+        "chin_y": 781.73,
+        "estimated_crown_y": 131.52,
+        "eye_angle_degrees": -0.146,
+        "face_height_px": 481.64,
+        "head_height_px": 650.21,
+        "head_height_ratio": 0.7225,
+        "eye_y_ratio": 0.5033
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_103.png",
+      "width": 700,
+      "height": 900,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 343.92,
+        "eye_mid_y": 459.42,
+        "forehead_y": 317.76,
+        "chin_y": 796.13,
+        "estimated_crown_y": 150.33,
+        "eye_angle_degrees": -0.041,
+        "face_height_px": 478.37,
+        "head_height_px": 645.8,
+        "head_height_ratio": 0.7176,
+        "eye_y_ratio": 0.5105
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_104.png",
+      "width": 700,
+      "height": 900,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 342.47,
+        "eye_mid_y": 448.24,
+        "forehead_y": 298.59,
+        "chin_y": 763.23,
+        "estimated_crown_y": 135.97,
+        "eye_angle_degrees": 0.813,
+        "face_height_px": 464.64,
+        "head_height_px": 627.26,
+        "head_height_ratio": 0.697,
+        "eye_y_ratio": 0.498
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_105.png",
+      "width": 700,
+      "height": 900,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 347.27,
+        "eye_mid_y": 472.89,
+        "forehead_y": 333.23,
+        "chin_y": 802.67,
+        "estimated_crown_y": 168.92,
+        "eye_angle_degrees": -0.705,
+        "face_height_px": 469.44,
+        "head_height_px": 633.75,
+        "head_height_ratio": 0.7042,
+        "eye_y_ratio": 0.5254
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_106.png",
+      "width": 700,
+      "height": 900,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 341.39,
+        "eye_mid_y": 444.38,
+        "forehead_y": 292.77,
+        "chin_y": 765.68,
+        "estimated_crown_y": 127.25,
+        "eye_angle_degrees": 0.965,
+        "face_height_px": 472.91,
+        "head_height_px": 638.42,
+        "head_height_ratio": 0.7094,
+        "eye_y_ratio": 0.4938
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_107.png",
+      "width": 700,
+      "height": 900,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 347.21,
+        "eye_mid_y": 465.67,
+        "forehead_y": 324.43,
+        "chin_y": 796.92,
+        "estimated_crown_y": 159.06,
+        "eye_angle_degrees": 0.283,
+        "face_height_px": 472.49,
+        "head_height_px": 637.87,
+        "head_height_ratio": 0.7087,
+        "eye_y_ratio": 0.5174
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_108.png",
+      "width": 700,
+      "height": 900,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 343.13,
+        "eye_mid_y": 442.95,
+        "forehead_y": 291.92,
+        "chin_y": 763.33,
+        "estimated_crown_y": 126.93,
+        "eye_angle_degrees": 0.325,
+        "face_height_px": 471.4,
+        "head_height_px": 636.4,
+        "head_height_ratio": 0.7071,
+        "eye_y_ratio": 0.4922
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_109.png",
+      "width": 700,
+      "height": 900,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 352.19,
+        "eye_mid_y": 471.66,
+        "forehead_y": 325.15,
+        "chin_y": 809.12,
+        "estimated_crown_y": 155.75,
+        "eye_angle_degrees": -0.264,
+        "face_height_px": 483.98,
+        "head_height_px": 653.37,
+        "head_height_ratio": 0.726,
+        "eye_y_ratio": 0.5241
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_110.png",
+      "width": 700,
+      "height": 900,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 338.88,
+        "eye_mid_y": 476.89,
+        "forehead_y": 318.5,
+        "chin_y": 808.52,
+        "estimated_crown_y": 147.0,
+        "eye_angle_degrees": 0.46,
+        "face_height_px": 490.01,
+        "head_height_px": 661.52,
+        "head_height_ratio": 0.735,
+        "eye_y_ratio": 0.5299
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_111.png",
+      "width": 700,
+      "height": 900,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 345.73,
+        "eye_mid_y": 386.16,
+        "forehead_y": 277.86,
+        "chin_y": 617.08,
+        "estimated_crown_y": 159.13,
+        "eye_angle_degrees": -1.213,
+        "face_height_px": 339.22,
+        "head_height_px": 457.95,
+        "head_height_ratio": 0.5088,
+        "eye_y_ratio": 0.4291
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_112.png",
+      "width": 700,
+      "height": 900,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 348.23,
+        "eye_mid_y": 375.33,
+        "forehead_y": 276.5,
+        "chin_y": 582.23,
+        "estimated_crown_y": 169.5,
+        "eye_angle_degrees": -0.715,
+        "face_height_px": 305.72,
+        "head_height_px": 412.73,
+        "head_height_ratio": 0.4586,
+        "eye_y_ratio": 0.417
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_113.png",
+      "width": 700,
+      "height": 900,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 347.22,
+        "eye_mid_y": 338.68,
+        "forehead_y": 247.74,
+        "chin_y": 541.47,
+        "estimated_crown_y": 144.94,
+        "eye_angle_degrees": -0.318,
+        "face_height_px": 293.73,
+        "head_height_px": 396.54,
+        "head_height_ratio": 0.4406,
+        "eye_y_ratio": 0.3763
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_114.png",
+      "width": 700,
+      "height": 900,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 353.04,
+        "eye_mid_y": 351.04,
+        "forehead_y": 264.65,
+        "chin_y": 533.14,
+        "estimated_crown_y": 170.68,
+        "eye_angle_degrees": -0.345,
+        "face_height_px": 268.49,
+        "head_height_px": 362.46,
+        "head_height_ratio": 0.4027,
+        "eye_y_ratio": 0.39
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_115.png",
+      "width": 700,
+      "height": 900,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 348.24,
+        "eye_mid_y": 365.02,
+        "forehead_y": 263.82,
+        "chin_y": 584.45,
+        "estimated_crown_y": 151.6,
+        "eye_angle_degrees": -0.2,
+        "face_height_px": 320.63,
+        "head_height_px": 432.85,
+        "head_height_ratio": 0.4809,
+        "eye_y_ratio": 0.4056
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_116.png",
+      "width": 700,
+      "height": 900,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 346.79,
+        "eye_mid_y": 309.72,
+        "forehead_y": 213.62,
+        "chin_y": 510.84,
+        "estimated_crown_y": 109.59,
+        "eye_angle_degrees": -0.542,
+        "face_height_px": 297.22,
+        "head_height_px": 401.25,
+        "head_height_ratio": 0.4458,
+        "eye_y_ratio": 0.3441
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_117.png",
+      "width": 700,
+      "height": 900,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 344.81,
+        "eye_mid_y": 379.58,
+        "forehead_y": 285.14,
+        "chin_y": 602.13,
+        "estimated_crown_y": 174.2,
+        "eye_angle_degrees": -0.968,
+        "face_height_px": 316.99,
+        "head_height_px": 427.94,
+        "head_height_ratio": 0.4755,
+        "eye_y_ratio": 0.4218
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_118.png",
+      "width": 700,
+      "height": 900,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 350.12,
+        "eye_mid_y": 394.79,
+        "forehead_y": 295.18,
+        "chin_y": 598.81,
+        "estimated_crown_y": 188.92,
+        "eye_angle_degrees": -0.405,
+        "face_height_px": 303.62,
+        "head_height_px": 409.89,
+        "head_height_ratio": 0.4554,
+        "eye_y_ratio": 0.4387
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_119.png",
+      "width": 700,
+      "height": 900,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 344.09,
+        "eye_mid_y": 347.79,
+        "forehead_y": 249.53,
+        "chin_y": 549.58,
+        "estimated_crown_y": 144.51,
+        "eye_angle_degrees": 0.142,
+        "face_height_px": 300.05,
+        "head_height_px": 405.07,
+        "head_height_ratio": 0.4501,
+        "eye_y_ratio": 0.3864
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_120.png",
+      "width": 700,
+      "height": 900,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 345.73,
+        "eye_mid_y": 386.16,
+        "forehead_y": 277.86,
+        "chin_y": 617.08,
+        "estimated_crown_y": 159.13,
+        "eye_angle_degrees": -1.213,
+        "face_height_px": 339.22,
+        "head_height_px": 457.95,
+        "head_height_ratio": 0.5088,
+        "eye_y_ratio": 0.4291
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_121.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 562.06,
+        "eye_mid_y": 513.87,
+        "forehead_y": 345.25,
+        "chin_y": 889.25,
+        "estimated_crown_y": 154.85,
+        "eye_angle_degrees": -0.43,
+        "face_height_px": 544.0,
+        "head_height_px": 734.39,
+        "head_height_ratio": 0.5165,
+        "eye_y_ratio": 0.3614
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_122.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 540.63,
+        "eye_mid_y": 543.61,
+        "forehead_y": 380.02,
+        "chin_y": 899.55,
+        "estimated_crown_y": 198.18,
+        "eye_angle_degrees": -2.432,
+        "face_height_px": 519.53,
+        "head_height_px": 701.37,
+        "head_height_ratio": 0.4932,
+        "eye_y_ratio": 0.3823
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_123.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 539.48,
+        "eye_mid_y": 565.29,
+        "forehead_y": 396.96,
+        "chin_y": 944.96,
+        "estimated_crown_y": 205.16,
+        "eye_angle_degrees": 0.6,
+        "face_height_px": 548.0,
+        "head_height_px": 739.8,
+        "head_height_ratio": 0.5203,
+        "eye_y_ratio": 0.3975
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_124.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 549.17,
+        "eye_mid_y": 554.44,
+        "forehead_y": 395.02,
+        "chin_y": 904.12,
+        "estimated_crown_y": 216.84,
+        "eye_angle_degrees": -3.316,
+        "face_height_px": 509.1,
+        "head_height_px": 687.28,
+        "head_height_ratio": 0.4833,
+        "eye_y_ratio": 0.3899
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_125.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 549.32,
+        "eye_mid_y": 521.12,
+        "forehead_y": 346.8,
+        "chin_y": 912.83,
+        "estimated_crown_y": 148.7,
+        "eye_angle_degrees": -0.092,
+        "face_height_px": 566.02,
+        "head_height_px": 764.13,
+        "head_height_ratio": 0.5374,
+        "eye_y_ratio": 0.3665
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_126.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 560.61,
+        "eye_mid_y": 525.99,
+        "forehead_y": 363.38,
+        "chin_y": 878.65,
+        "estimated_crown_y": 183.04,
+        "eye_angle_degrees": -0.85,
+        "face_height_px": 515.27,
+        "head_height_px": 695.62,
+        "head_height_ratio": 0.4892,
+        "eye_y_ratio": 0.3699
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_127.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 535.13,
+        "eye_mid_y": 614.95,
+        "forehead_y": 436.54,
+        "chin_y": 1015.35,
+        "estimated_crown_y": 233.96,
+        "eye_angle_degrees": -0.296,
+        "face_height_px": 578.81,
+        "head_height_px": 781.39,
+        "head_height_ratio": 0.5495,
+        "eye_y_ratio": 0.4325
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_128.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 565.07,
+        "eye_mid_y": 562.77,
+        "forehead_y": 390.37,
+        "chin_y": 925.52,
+        "estimated_crown_y": 203.07,
+        "eye_angle_degrees": -0.84,
+        "face_height_px": 535.15,
+        "head_height_px": 722.45,
+        "head_height_ratio": 0.5081,
+        "eye_y_ratio": 0.3958
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_129.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 539.25,
+        "eye_mid_y": 520.42,
+        "forehead_y": 350.97,
+        "chin_y": 878.09,
+        "estimated_crown_y": 166.48,
+        "eye_angle_degrees": -0.701,
+        "face_height_px": 527.12,
+        "head_height_px": 711.61,
+        "head_height_ratio": 0.5004,
+        "eye_y_ratio": 0.366
+      }
+    },
+    {
+      "filename": "OK_KI_FACE_130.png",
+      "width": 1106,
+      "height": 1422,
+      "aspect_ratio": 0.7778,
+      "landmarks": {
+        "eye_mid_x": 545.65,
+        "eye_mid_y": 506.9,
+        "forehead_y": 342.85,
+        "chin_y": 869.35,
+        "estimated_crown_y": 158.57,
+        "eye_angle_degrees": -0.376,
+        "face_height_px": 526.5,
+        "head_height_px": 710.78,
+        "head_height_ratio": 0.4998,
+        "eye_y_ratio": 0.3565
+      }
+    }
+  ]
+}
